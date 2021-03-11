@@ -23,9 +23,13 @@ SET UP THE REPOSITORY Update the apt package index and install packages to allow
 $ sudo apt-get update
  
 $ sudo apt-get install apt-transport-https
+
 $ sudo apt-get install ca-certificates
+
 $ sudo apt-get install curl
+
 $ sudo apt-get install gnupg-agent
+
 $ sudo apt-get install software-properties-common
  
 Add Docker’s official GPG key:
